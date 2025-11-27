@@ -1,0 +1,8 @@
+Test Case ID,Function,Test Steps,Input Data,Expected Result
+TC01,Login,"1. Go to login page; 2. Enter valid username & password; 3. Click 'Login'","Username: student01, Password: 123456",User logs in successfully 
+TC02,Login,"1. Go to login page; 2. Enter valid username and wrong password; 3. Click 'Login'","Username: student01, Password: wrongpass",Error message 'Invalid username or password.' appears 
+TC03,Register Account,"1. Go to register page; 2. Fill all fields; 3. Click Submit","Name: John, Email: john@gmail.com, Pass: 123456",Registration is completed successfully 
+TC04,Search Vehicle,"1. Log in; 2. Navigate to Vehicle List; 3. Filter by 'SUV'","Filter: SUV",System displays only vehicles with type 'SUV' that are 'Available'
+TC05,Create Booking,"1. Select Vehicle; 2. Choose Start/End Date; 3. Confirm","Vehicle: Toyota Fortuner, Dates: 2025-11-01 to 2025-11-03",System calculates fee, creates booking ID, and updates vehicle status to 'Rented'
+TC06,Fleet Management,"1. Admin Login; 2. Add new vehicle; 3. Save","Plate: 51F-999.99, Type: Sedan, Status: Available",Vehicle is added to the database and searchable
+TC07,Payment Processing,"1. Review Contract; 2. Select Payment Method; 3. Pay","Method: Credit Card, Amount: $100",Payment recorded, receipt generated

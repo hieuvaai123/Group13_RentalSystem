@@ -1,0 +1,54 @@
+VEHICLE RENTAL SYSTEM - GROUP 13
+PROJECT: Vehicle Rental System
+=========================================================
+1. TASK ASSIGNMENT SUMMARY
+MEMBER 1: Fleet Management
+- Role: Fleet Manager
+- Responsibilities:
+  * Implemented the 'Vehicle' class in [models.py].
+  * Developed fleet management logic (add/update vehicle) in [rental_system.py].
+  * Created dummy data for initial system testing.
+  * Coverage: FR4 (Fleet Management).
+  * Deliverables: Source code components, TC06 in Testing Document.
+
+MEMBER 2: Rental & Billing Logic
+- Role: Rental & Payment Processor
+- Responsibilities:
+  * Implemented 'Booking' and 'Payment' classes in [models.py].
+  * Developed core algorithms for rental day calculation and fee processing in [rental_system.py].
+  * Implemented vehicle search logic based on availability.
+  * Coverage: FR2 (Rental Management), FR3 (Billing & Payment).
+  * Deliverables: Rental logic code, Unit Test script (test_unit.py), TC04, TC05, TC07.
+MEMBER 3: User Management
+- Role: Customer & Staff Interface
+- Responsibilities:
+  * Implemented 'Customer' and 'Staff' classes in [models.py].
+  * Developed the Command Line Interface (CLI) in [main.py].
+  * Integrated backend modules (Fleet, Rental) into the main user loop.
+  * Coverage: FR1 (User Management), Interface Design.
+  * Deliverables: main.py, User flow verification (TC01, TC02, TC03).
+MEMBER 4: Deployment
+- Role: Deployment & Reporting
+- Responsibilities:
+  * Implemented Reporting class and logic for FR5.
+  * Created the [Dockerfile] for containerization and deployment.
+  * Compiled and standardized the Testing Document (Excel/CSV).
+  * Consolidated tool usage evidence.
+  * Coverage: FR5 (Reporting), NFR8 (Python), Deployment.
+  * Deliverables: Dockerfile, Final Testing Document, Evidence File.
+=========================================================
+2. EVIDENCE OF TOOL USAGE
+A. PROGRAMMING & IMPLEMENTATION 
+- Language: Python 3.9
+- IDE: Visual Studio Code / PyCharm.
+  * Used for writing source code files: main.py, models.py, rental_system.py.
+  * Used for debugging runtime errors during integration.
+B. TESTING
+- Unit Testing: pytest
+  * Used by Member 2 to verify fee calculation logic.
+- Test Documentation: Microsoft Excel
+  * File: 'testing/test_cases.csv'
+  * Used to list inputs, steps, and expected results for TC01 through TC07.
+C. DESIGN & DOCUMENTATION
+- Diagrams: diagrams.net
+  * Used to create DFD, Use Case, and Class
